@@ -36,7 +36,7 @@ public class Server {
 
                 /*Sending*/
 
-            }while(!message.equals("exit"));
+            }while(!message.equals("exit"));//client gen ena message eka exit nm socket eka close wenawa(kohoma wunath input , output watayak yanawa)
             socket.close();
 
 

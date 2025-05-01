@@ -27,7 +27,7 @@ public class Client {
                 System.out.println("Server : " + replyFromServer);
             }
 
-            while(!message.equals("exit"));
+            while(!message.equals("exit"));//client yawana message eka exit nm socket eka close wenawa.(kohoma wunath output,input watayak yanawa)
             socket.close();
 
 
